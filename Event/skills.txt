@@ -1,0 +1,9 @@
+Puni can drop at sizes > 1 = Punis can fall at certain size 
+
+Puni refill = retains partial soultimate fill after use
+
+Puni drop pre-inflated at start = Puni drop pre-inflated
+
+Faster Fever Gage = Fever builds faster when linking
+
+Tribe Unity = Tribe unity
