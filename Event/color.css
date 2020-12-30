@@ -3,3 +3,17 @@
     color: #FFFFFF;
 }
 
+.gates:hover {
+    background-color: #f7f309;
+    color: #000000;
+}
+
+.past:hover {
+    background-color: #9800ac;
+    color: #ffffff;
+}
+
+.new:hover {
+    background-color: #004bac;
+    color: #ffffff;
+}
