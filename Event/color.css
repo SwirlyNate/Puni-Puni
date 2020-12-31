@@ -14,6 +14,11 @@
 }
 
 .new:hover {
-    background-color: #004bac;
+    background-color: #f19d01;
     color: #ffffff;
+}
+
+.discord {
+    color: #7289DA;
+    font-weight: bold;
 }
