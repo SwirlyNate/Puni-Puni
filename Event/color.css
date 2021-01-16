@@ -8,6 +8,11 @@
     color: #000000;
 }
 
+.golf:hover {
+    background-color: #029e50;
+    color: #ffffff;
+}
+
 .past:hover {
     background-color: #9800ac;
     color: #ffffff;
@@ -21,4 +26,35 @@
 .discord {
     color: #7289DA;
     font-weight: bold;
+}
+
+.ATK {
+    color: #f61643;
+}
+
+.HP {
+    color: #36B25D;
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+}
+
+.hr-sect:before,
+.hr-sect:after {
+    content: "";
+    flex-grow: 1;
+    background: #c9c9c9;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+:target { 
+    background: #ccc;
+    border: solid 1px #aaa;
+    transition: ease-in .8s; 
 }
