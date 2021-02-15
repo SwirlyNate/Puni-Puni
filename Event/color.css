@@ -13,13 +13,19 @@
     color: #ffffff;
 }
 
+.ohajiki:hover {
+    background-color: #0262d1;
+    color: #ffffff;
+}
+
+
 .past:hover {
     background-color: #9800ac;
     color: #ffffff;
 }
 
 .new:hover {
-    background-color: #0d9b9b;
+    background-color: #2b2b2b;
     color: #ffffff;
 }
 
