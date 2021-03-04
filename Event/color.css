@@ -64,3 +64,28 @@
     border: solid 1px #aaa;
     transition: ease-in .8s; 
 }
+
+.download {
+    border: none;
+    color: #ffffff;
+    background-color: #4e5eec;
+    padding: 16px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+.download:hover {
+    opacity: 0.8;
+}
+
+.docs:hover{
+    color: #ffffff;
+    background-color: #1973e9;
+}
+
+.schedule:hover {
+    color: #FFFFFF;
+    background-color: #d65188;
+}
