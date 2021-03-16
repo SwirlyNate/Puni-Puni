@@ -18,6 +18,10 @@
     color: #ffffff;
 }
 
+.minigames:hover {
+    background-color: #6c40d3;
+    color: #ffffff;
+}
 
 .past:hover {
     background-color: #9800ac;
@@ -25,7 +29,7 @@
 }
 
 .new:hover {
-    background-color: #8b0101;
+    background-color: #210125;
     color: #ffffff;
 }
 
