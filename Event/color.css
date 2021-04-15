@@ -29,13 +29,18 @@
 }
 
 .new:hover {
-    background-color: #210125;
+    background-color: #47134e;
     color: #ffffff;
 }
 
 .discord {
     color: #7289DA;
     font-weight: bold;
+}
+
+.discord2:hover {
+    background-color: #2C2F33;
+    color: #ffffff;
 }
 
 .ATK {
