@@ -89,7 +89,7 @@
     opacity: 0.8;
 }
 
-.docs:hover{
+.docs:hover {
     color: #ffffff;
     background-color: #1973e9;
 }
@@ -98,3 +98,17 @@
     color: #FFFFFF;
     background-color: #d65188;
 }
+
+.bannernotice {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
