@@ -2,11 +2,11 @@
 <html>
   <head>
     <html prefix="og: https://ogp.me/ns#">
-    <meta property="og:title" content="Dragon Psuedokai (5/31 - 6/15)" />
-    <meta property="og:description" content="Psuedokai featuring ZZ Whyvern King and Smoldering Dragon">
+    <meta property="og:title" content="Shogi Gates (6/25 - 6/30)" />
+    <meta property="og:description" content="Gates of Whimsey featuring ZZ Kuuten and Shuka">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://swirlynate.github.io/Puni-Puni/Event/Event_Bonus.html" />
-    <meta property="og:image" content="https://swirlynate.github.io/Puni-Puni/Event/past/FIRE-DRAGON/Enryuu_Wib_Wob.png"/>
+    <meta property="og:image" content="https://swirlynate.github.io/Puni-Puni/Event/past/SHOGI-KUUTEN/Kuuten.png"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Puni Docs</title>
@@ -59,13 +59,13 @@
     <div class="container-md">
       <div class="jumbotron text-center" style="margin-bottom: 15px;">
         <div class="bannernotice">
-          <img width="100%" src="past/FIRE-DRAGON/web_banner_20210601_02_cRu4vOWv.png"/>
+          <img width="100%" src="past/SHOGI-KUUTEN/web_banner_20210616_01_jhQQ9XED.png"/>
           <img width="10%" src="../images/new01.gif" class="absolute">
         </div>
-        <span style="font-weight: bold;"><br><h2>Dragon Psuedokai (5/31 - 6/15)</h2></span></p>
+        <span style="font-weight: bold;"><br><h2>Kuuten Shogi Gates of Whimsey (6/15 - 6/30)</h2></span></p>
         <div style="display:flex;" class="justify-content-center">
           <div>
-            <a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SwirlyNate/Puni-Puni/tree/master/Event/past/FIRE-DRAGON">
+            <a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SwirlyNate/Puni-Puni/tree/master/Event/past/SHOGI-KUUTEN">
               <button class="download">Download all event puni
                 <svg width="20px" height="20px" viewBox="0 0 537.794 537.795" style="fill:#FFFFFF;">
                   <path  d="M463.091,466.114H74.854c-11.857,0-21.497,9.716-21.497,21.497v28.688c0,11.857,9.716,21.496,21.497,21.496h388.084
@@ -114,31 +114,53 @@
         </div>
         -->
 
-        <!-- Fire Dragon -->
+        <!-- Kuuten -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 175px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Enryuu_Wib_Wob.png" class="float-center" style="width:104px;"/><br>Smoldering Dragon</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img id="Kuuten" onclick="changeImage();" src="past/SHOGI-KUUTEN/Kuuten.png" class="float-center" style="width:104px;"/><br>Kaira's Army Kuuten</th>
+              <script> 
+
+                function changeImage() {
+
+                  var src = document.getElementById("Kuuten").src;   
+                  var imgsrc = src.substring(src.lastIndexOf("/")+1);
+                  if  (imgsrc == "Kuuten.png")
+                  {
+                      document.getElementById("Kuuten").src = "past/SHOGI-KUUTEN/Kuuten2.png";
+                      console.log('if'+document.getElementById("Kuuten").src);
+                  }
+                  else 
+                  {
+                      document.getElementById("Kuuten").src = "past/SHOGI-KUUTEN/Kuuten.png";
+                      console.log('if'+document.getElementById("Kuuten").src);
+                  }
+
+                }
+              </script>
               <th scope="col" class="align-middle" style="font-size: 25px;">
                 Tribe: Brave <img src="../images/Puni/tribes/tribeBrave.png" class="brave"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/ZZ.gif" class="ZZ"/>
-                <div class="text-primary">Impossible stage</div>
+                <div class="text-primary">Gates Reward</div>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 1036 </span></th>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
               <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> All popper + bonus ball creator</td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1165 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Revive</td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Prefill </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
-              <td class="align-middle" style="height: 80px;"> N/A </td>
+              <th scope="row" class="align-middle" style="width: 140px;" rowspan="2">Special Info</th>
+              <td class="align-middle" style="height: 80px;"><span style="font-weight: bold;">TF Skill<sup><a href="../help.html#TF" id="Transformation-skill">[?]</a></sup>: </span>His soultimate gauge will remain partially filled</td>
+            </tr>
+            <tr>
+              <td class="align-middle" style="height: 40px;"><span style="font-weight: bold;">TF Requirement:</span> Link 10 puni at once</tr>
             </tr>
             <tr style="height:100px;">
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
@@ -147,13 +169,32 @@
           </tbody>
         </table>
 
-        <!-- Nandaryou -->
+        <!-- Shuka -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 175px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Ouma_Nandaryuu_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Dragon Slayer Whyvern King</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img id="Shuka" onclick="changeImage2();" src="past/SHOGI-KUUTEN/Shuka.png" class="float-center" style="width:100px;"/><br>Enma's Army Shuka</th>
+              <script> 
+
+                function changeImage2() {
+
+                  var src = document.getElementById("Shuka").src;   
+                  var imgsrc = src.substring(src.lastIndexOf("/")+1);
+                  if  (imgsrc == "Shuka.png")
+                  {
+                      document.getElementById("Shuka").src = "past/SHOGI-KUUTEN/Shuka2.png";
+                      console.log('if'+document.getElementById("Shuka").src);
+                  }
+                  else 
+                  {
+                      document.getElementById("Shuka").src = "past/SHOGI-KUUTEN/Shuka.png";
+                      console.log('if'+document.getElementById("Shuka").src);
+                  }
+
+                }
+              </script>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Slippery <img src="../images/Puni/tribes/tribeSlippery.png" class="slippery"/>
+                Tribe: Charming <img src="../images/Puni/tribes/tribeCharming.png" class="charming"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/ZZ.gif" class="ZZ"/>
                 <div class="text-primary">Crank Yo-kai</div>
@@ -162,93 +203,64 @@
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 1050 </span></th>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
               <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Tap inflator </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1151 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His soultimate gauge fills when others' soultimates are used </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Her soultimate may get filled more when popping big puni </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
-              <td class="align-middle" style="height: 80px;"> N/A </td>
+              <th scope="row" class="align-middle" style="width: 140px;" rowspan="2">Special Info</th>
+              <td class="align-middle" style="height: 80px;"><span style="font-weight: bold;">TF Skill<sup><a href="../help.html#TF" id="Transformation-skill">[?]</a></sup>: </span>Her puni can drop inflated</td>
+            </tr>
+            <tr>
+              <td class="align-middle" style="height: 40px;"><span style="font-weight: bold;">TF Requirement:</span> Pop 10 size 5+ puni</tr>
             </tr>
             <tr style="height:100px;">
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Damage + defense bonus vs. Smoldering Dragon</td>
+              <td class="align-middle" style="height: 80px;">Defense bonus vs. Kuuten</td>
             </tr>
           </tbody>
         </table>
-
-        <!-- Smoldering Komashura -->
+        
+        <!-- Gentou -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 195px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Entsumeshuu_Shurakoma_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Smoldering Komashura</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Gentou.png" class="float-center" style="width:100px;"/><br>Kaira's Army Gentou</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Mysterious <img src="../images/Puni/tribes/tribeMysterious.png" class="mysterious"/>
+                Tribe: Brave <img src="../images/Puni/tribes/tribeBrave.png" class="brave"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/Z.gif" class="Z"/>
+                <div class="text-primary">Midevent yo-kai (potentially)</div>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 850 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> All popper + healer </td>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Center popper + stunner </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1083 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Prefill </td>
-            </tr>
-            <tr style="height: 80px;">
-              <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
-              <td class="align-middle" style="height: 80px;"> N/A </td>
-            <tr style="height: 80px;">
-              <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Stealing bonus</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        
-        <!-- Kyubi -->
-        <table class="table col-lg-6 table-bordered text-left bg-light">
-          <thead>
-            <tr style="height: 195px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Metsuryuutai_Kyubi_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Dragon Slayer Kyubi</th>
-              <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Mysterious <img src="../images/Puni/tribes/tribeMysterious.png" class="mysterious"/>
-                <br>
-                Rank: <img src="../images/Puni/ranks/Z.gif" class="Z"/>
-                <div class="text-primary">Midevent yo-kai</div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBD </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> All popper + rearranger</td>
-            </tr>
-            <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBD </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill: </span> Redrop </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill: </span> Change to reduce damage (guard) </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
               <td class="align-middle" style="height: 80px;">N/A</td>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;"> TBD </td>
+              <td class="align-middle" style="height: 80px;"> Damage bonus vs. Kuuten(?) </td>
             </tr>
           </tbody>
         </table>
 
-        <!-- Satoha Ryuuta -->
+        <!-- Hakushuu -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
-            <tr style="height: 175px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Ryuuta_Satoba_Toushi_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Satoha Ryuuta</th>
+            <tr style="height: 195px;">
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Hakushuu.png" class="float-center" style="width:100px;"/><br>Enma's Army Hakushuu</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
                 Tribe: Tough <img src="../images/Puni/tribes/tribeTough.png" class="tough"/>
                 <br>
@@ -258,31 +270,62 @@
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 876 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Horizontal popper + stunner </td>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Attack booster </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1057 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His puni may fall pre-inflated </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His puni are easier to link </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
-              <td class="align-middle" style="height: 80px;"> This yo-kai has a second skill </td>
+              <td class="align-middle" style="height: 80px;"> N/A </td>
+            <tr style="height: 80px;">
+              <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
+              <td class="align-middle" style="height: 80px;">Damage bonus vs. normal gates(?)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Damona -->
+        <table class="table col-lg-6 table-bordered text-left bg-light">
+          <thead>
+            <tr style="height: 175px;">
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Damona.png" class="float-center" style="width:100px;"/><br>Enma's Army Damona</th>
+              <th scope="col" class="align-middle" style="font-size: 25px;">
+                Tribe: Charming <img src="../images/Puni/tribes/tribeCharming.png" class="charming"/>
+                <br>
+                Rank: <img src="../images/Puni/ranks/Z.gif" class="Z"/>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="height: 80px;">
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> All popper + gets stronger with each use </td>
+            </tr>
+            <tr style="height: 80px;">
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Refill </td>
+            </tr>
+            <tr style="height: 80px;">
+              <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
+              <td class="align-middle" style="height: 80px;"> N/A </td>
             </tr>
             <tr>
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Damage + defense bonus vs. Smoldering Komashura</td>
+              <td class="align-middle" style="height: 80px;">Damage + defense bonus vs. normal gates(?)</td>
             </tr>
           </tbody>
         </table>
       
-        <!-- Badude -->
+        <!-- Saya -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 175px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Entsumeshuu_Gokudo_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Smoldering Badude</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Entsumeshuu_Gokudo_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Enma's Army Saya</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Tough <img src="../images/Puni/tribes/tribeTough.png" class="tough"/>
+                Tribe: Brave <img src="../images/Puni/tribes/tribeBrave.png" class="brave"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/SSS.png" class="SSS"/>
               </th>
@@ -290,30 +333,30 @@
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 662 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Center Popper </td>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Center Popper + healer </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1003 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Refill </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> Her soultimate gauge fills up when taking damage </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;" >Special Info</th>
               <td class="align-middle" style="height: 80px;"> N/A </td>
             <tr>
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;"> Damage bonus vs. map enemies </td>
+              <td class="align-middle" style="height: 80px;"> Damage bonus vs. lucky gates(?) </td>
             </tr>
           </tbody>
         </table>
 
-        <!-- Skillskull -->
+        <!-- Fuu-kun -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 195px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Metsuryuutai_Rebone_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Dragon Slayer Skillskull</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Fuu-kun.png" class="float-center" style="width:100px;"/><br>Enma's Army Fuu-kun</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Tough <img src="../images/Puni/tribes/tribeTough.png" class="tough"/>
+                Tribe: Brave <img src="../images/Puni/tribes/tribeBrave.png" class="brave"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/SSS.png" class="SSS"/>
               </th>
@@ -321,12 +364,12 @@
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 6556 </span></th>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
               <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Vertical Popper </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 1010 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His puni are easier to link </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His soultimate gauge may fill more when big puni are popped </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
@@ -334,18 +377,18 @@
             </tr>
             <tr>
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Blocks the spawn of damage balls vs. Smoldering Dragon</td>
+              <td class="align-middle" style="height: 80px;">Damage bonus vs. normal gates(?) </td>
             </tr>
           </tbody>
         </table>
 
-        <!-- Swelterrier -->
+        <!-- Rai -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 195px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Entsumeshuu_Atsugaruru_Wib_Wob.png" class="float-center" style="width:100px;"/><br>Smoldering Swelterrier</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Rai-chan.png" class="float-center" style="width:100px;"/><br>Kaira's Army Rai-chan</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Charming <img src="../images/Puni/tribes/tribeCharming.png" class="charming"/>
+                Tribe: Brave <img src="../images/Puni/tribes/tribeBrave.png" class="brave"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/SSS.png" class="SSS"/>
               </th>
@@ -358,28 +401,25 @@
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 996 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His soultimate gauge may fill when other soultimates are used </td>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His soultimate gauge may fill when other big puni are popped </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
               <td class="align-middle" style="height: 80px;"> N/A </td>
             <tr>
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Stealing bonus</td>
+              <td class="align-middle" style="height: 80px;">Damage bonus vs. normal gates(?)</td>
             </tr>
           </tbody>
         </table>
 
-        
-        
-
-        <!-- Robonyan -->
+        <!-- Noko -->
         <table class="table col-lg-6 table-bordered text-left bg-light">
           <thead>
             <tr style="height: 175px;">
-              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/FIRE-DRAGON/Robouemon_Wib_Wob.png" class="float-center" style="width:102px;"/><br>Dragon Slayer Robanyan</th>
+              <th class="align-middle text-center" scope="col" style="width: 140px;"><img src="past/SHOGI-KUUTEN/Noko.png" class="float-center" style="width:102px;"/><br>Kaira's Army Noko</th>
               <th scope="col" class="align-middle" style="font-size: 25px;">
-                Tribe: Tough <img src="../images/Puni/tribes/tribeTough.png" class="tough"/>
+                Tribe: Slippery <img src="../images/Puni/tribes/tribeSlippery.png" class="slippery"/>
                 <br>
                 Rank: <img src="../images/Puni/ranks/SS.png" class="SS"/>
               </th>
@@ -387,12 +427,12 @@
           </thead>
           <tbody>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> 996 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Defense booster + healer </td>
+              <th scope="row" class="align-middle HP" style="width: 140px;">HP: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Soultimate:</span> Healer </td>
             </tr>
             <tr style="height: 80px;">
-              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> 583 </span></th>
-              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His puni may heal when popped </td>
+              <th scope="row" class="align-middle ATK" style="width: 140px;">ATK: <span style="color: #000000;"> TBA </span></th>
+              <td class="align-middle"><span style="font-weight: bold;">Skill:</span> His puni are easier to link </td>
             </tr>
             <tr style="height: 80px;">
               <th scope="row" class="align-middle" style="width: 140px;">Special Info</th>
@@ -400,7 +440,7 @@
             </tr>
             <tr>
               <th scope="row" class="align-middle" style="width: 120px;">Event Bonus</th>
-              <td class="align-middle" style="height: 80px;">Defense bonus vs. Smoldering Komashura</td>
+              <td class="align-middle" style="height: 80px;">Damage + defense bonus vs. map enemies</td>
             </tr>
           </tbody>
         </table>
@@ -437,9 +477,8 @@
       </div>
       <div class="card col-md-12">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><strong>Hidden stage 1: </strong>Link 12 puni at once on stage 9</li>
-          <li class="list-group-item"><strong>Hidden stage 2: </strong>Create a size 23 puni on stage 23</li>
-          <li class="list-group-item"><strong>Hidden stage 3: </strong>Get a combo of 15 on stage 39</li>
+          <li class="list-group-item"><strong>Hidden stage 1: </strong>TBD</li>
+          <li class="list-group-item"><strong>Hidden stage 2: </strong>TBD</li>
         </ul>
       </div>
       <br>
@@ -455,10 +494,11 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><strong>1:</strong> Beat event stage 1.</li>
                 <li class="list-group-item"><strong>2:</strong> Beat event stage 13.</li>
-                <li class="list-group-item"><strong>3:</strong> Beat event stage 28.</li>
-                <li class="list-group-item"><strong>4:</strong> Beat event hidden stage 2.</li>
+                <li class="list-group-item"><strong>3:</strong> Beat level 5 of the normal gates.</li>
+                <li class="list-group-item"><strong>4:</strong> Beat level 2 of the Kuuten gates.</li>
                 <li class="list-group-item"><strong>5:</strong> Beat event stage 45 without continues.</li>
-                <li class="list-group-item"><strong>6:</strong> Participate in score attack.</li>
+                <li class="list-group-item"><strong>6:</strong> Beat level 15 of the normal gates.</li>
+                <li class="list-group-item"><strong>7:</strong> Participate in score attack.</li>
               </ul>
             </div>
           </div>
